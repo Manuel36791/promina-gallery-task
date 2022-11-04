@@ -1,0 +1,32 @@
+name: pro_mina_task
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: '>=2.14.0-341.0.dev <3.0.0'
+
+dependencies:
+  blurrycontainer: 1.0.2
+  cupertino_icons: ^1.0.2
+  dio: ^4.0.6
+  flutter:
+    sdk: flutter
+  flutter_screenutil: ^5.5.4
+  fluttertoast: ^8.0.9
+  get: 4.6.5
+  get_storage: ^2.0.3
+  google_fonts: ^3.0.1
+  image_picker: ^0.8.6
+  loading_indicator: null
+  shimmer: ^2.0.0
+
+dev_dependencies:
+  flutter_lints: 2.0.1
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
